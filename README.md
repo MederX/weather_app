@@ -78,12 +78,14 @@ Users can search for the weather of a specific city and country and view detaile
 
 ---
 
+## starting from the second link in the navbar, the city part is in the second place, you can just enter the city, not entering the country
+
 ## Link to the Deployed Project
 
 You can view the live project by visiting the link below:
 
 [Live Demo Link](#)  
-*Replace the placeholder with the actual deployed URL.*
+https://weather-app-six-phi-80.vercel.app/
 
 ---
 
@@ -109,19 +111,12 @@ bash
 Копировать код
 cd your-repo-name
 Install Dependencies: Run the following command to install the required dependencies:
-
-bash
-Копировать код
 npm install
 Create a .env file: You need to create a .env file to store your API key. In the root directory of the project, create a file named .env and add your WeatherAPI key:
-
-env
-Копировать код
 REACT_APP_WEATHER_API_KEY=your_api_key_here
 Run the Application: Once the dependencies are installed, you can start the app with the following command:
 
-bash
-Копировать код
+
 npm start
 This will start the development server, and you can open the app in your browser at http://localhost:3000.
 
@@ -145,6 +140,8 @@ markdown
 - **License**: If you want to include a license, you can generate one from GitHub or choose an open-source license that fits your project.
 
 This `README.md` will give your users and collaborators all the necessary information to understand, clone, install, and run your project locally.
+
+
 
 
 
